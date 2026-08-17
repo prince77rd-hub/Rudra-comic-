@@ -1,4 +1,10 @@
-name: Build Android APK
+name: Build name: Build Android APK
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:Android APK
 
 on:
   workflow_dispatch:
